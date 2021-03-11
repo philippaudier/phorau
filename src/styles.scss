@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+html, body {
+    font-family: 'Forum', cursive;
+    font-family: 'Unica One', cursive;
+
+    height: 100%;
+    margin: 0;
+    background-color: #1B2021;
+    color: #7DC95E;
+}

@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.app-wrapper .wrapper {
+  border: 1px dotted grey;
+}
+
+.app-wrapper .wrapper.header {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  /* The above is shorthand for:
+  flex-grow: 0,
+  flex-shrink: 1,
+  flex-basis: auto
+  */
+}
+
+.app-wrapper .wrapper.body {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.app-wrapper .wrapper.footer {
+  flex: 0 1 40px;
+  display: flex;
+  justify-content: center;
+}
