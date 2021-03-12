@@ -20,6 +20,8 @@ body {
   flex: 0 1 auto;
   display: flex;
   justify-content: center;
+
+  height: 64px;
   /* The above is shorthand for:
   flex-grow: 0,
   flex-shrink: 1,
@@ -28,8 +30,8 @@ body {
 }
 
 .app-wrapper .wrapper.body {
-  flex: 1 1 auto;
-  width: 100%;
+  flex: 1;
+  padding: 0 32px 32px 32px;
 }
 
 .app-wrapper .wrapper.footer {

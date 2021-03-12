@@ -45,8 +45,10 @@ $phorau-theme: mat-light-theme((
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 html, body {
-    font-family: 'Forum', cursive;
+    /* font-family: 'Forum', cursive; */
+    font-family: 'Benne', serif;
     /* font-family: 'Unica One', cursive; */
 
     height: 100%;
@@ -56,4 +58,4 @@ html, body {
     color: #E2E2E2;
 }
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Forum', cursive; }
+body { margin: 0; font-family: 'Benne', serif; }

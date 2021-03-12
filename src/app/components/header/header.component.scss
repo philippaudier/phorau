@@ -4,10 +4,10 @@
 }
 
 .wrapper.header .menu {
-    width: 100vw;
     /* background-color: #81C14B; */
     background-color: #588157;
     border-radius: 0;
+    width: 100vw;
 }
 
 .menu-items {
@@ -39,6 +39,7 @@ a:active {
 
 .mat-expansion-panel-header {
     cursor: default !important;
+    height: 64px;
 }
 
 .mat-expansion-panel-header-title {
@@ -52,8 +53,6 @@ a:active {
 
 .mat-expansion-panel {
     color: #DAD7CD;
-    
-    
 }
 
 h2 {

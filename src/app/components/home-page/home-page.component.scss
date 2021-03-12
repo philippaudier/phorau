@@ -3,6 +3,21 @@
     flex: 1;
     flex-wrap: wrap;
     flex-flow: column;
-    height: 100%;
     align-items: center;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.introduction {
+    font-size: 20px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 32px 0;
 }
