@@ -8,10 +8,12 @@ body {
   display: flex;
   flex-flow: column;
   height: 100%;
+  background-color: #293132;
+  color: #DAD7CD;
 }
 
 .app-wrapper .wrapper {
-  border: 1px dotted grey;
+  // border: 1px dotted grey;
 }
 
 .app-wrapper .wrapper.header {
@@ -27,8 +29,7 @@ body {
 
 .app-wrapper .wrapper.body {
   flex: 1 1 auto;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .app-wrapper .wrapper.footer {
